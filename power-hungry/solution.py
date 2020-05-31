@@ -19,7 +19,7 @@ def solution(xs):
             else:
                 pending_neg = power
         elif power > 0:
-            count_neg += 1
+            count_pos += 1
             result *= power
         else:
             count_zero += 1
