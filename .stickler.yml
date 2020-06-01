@@ -1,4 +1,0 @@
-linters:
-  flake8:
-    python: 2
-    fixer: true
