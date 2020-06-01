@@ -1,4 +1,19 @@
+"""
+Could solve this without the initial .sort() by keeping track of odd number
+of negative numbers and then dividing by the largest negative number.
+Ex: In [-2, -3, -5] the "-2" is the largest negative number.
+"""
+
+
 def solution(xs):
+    """Find the solution!
+
+    Args:
+        xs: A list of integer values.
+
+    Returns:
+        A number as a string representing the solution.
+    """
     # Change [3, -1, 0, -5] into [-5, -1, 0, 3]
     xs.sort()
 
