@@ -2,7 +2,7 @@ import solution_doomsday_fuel
 import unittest
 
 
-class TestPowerHungry(unittest.TestCase):
+class TestDoomsdayFuel(unittest.TestCase):
 
     def test_1(self):
         solution_input = [
